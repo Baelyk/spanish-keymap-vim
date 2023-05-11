@@ -1,6 +1,6 @@
 " Spanish (ES) keyboard layout emulator when using English Qwerty
 " Maintainer: George Ekman b43lyk@gmail.com
-" Last Changed: 2023-04-16
+" Last Changed: 2023-05-10
 
 let b:keymap_name = "ES"
 
@@ -62,7 +62,7 @@ _	?
 <A-5>	½
 <A-6>	¬
 <A-7>	{
-<A-8>	[
-<A-9>	]
-<A-0>	}
+<A-8>	}
+<A-9>	[
+<A-0>	]
 <A-->	\\

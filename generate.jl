@@ -47,7 +47,7 @@ function create_keymap_file(keymap)
 		))))
 	# Alt Gr + Keys
 	altgrs = map(pair -> "<A-$(pair[1])>\t$(pair[2])", 
-		[collect(zip("1234567890", "|@#~½¬{[]}"))..., ('-', "\\\\")])
+		[collect(zip("1234567890", "|@#~½¬{}[]"))..., ('-', "\\\\")])
 	
 	return "\" Spanish (ES) keyboard layout emulator when using English Qwerty
 \" Maintainer: George Ekman b43lyk@gmail.com
